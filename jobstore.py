@@ -36,7 +36,8 @@ class Job(db.Model):
 	def from_json(job_json):
 		title = job_json.get('title')
 		description = job_json.get('description')
-		return Job(title=title, description=description)
+		company = job_json.get('company')
+		return Job(title=title, description=description,company=company)
 
 
 @app.route('/')
