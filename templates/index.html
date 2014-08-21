@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JobStore</title>
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top navbar-inverse"
+		role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">JobStore</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<h2>JobStore application expose Two REST End Points</h2>
+			<ul>
+				<li>
+					To create a Job, make a HTTP POST request to <code>/api/v1/jobs</code>
+				</li>
+				<li>
+					To view all Jobs, make a HTTP GET request to <code>/api/v1/jobs</code>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
